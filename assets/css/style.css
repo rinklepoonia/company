@@ -182,6 +182,25 @@
     }
 
 }
+.cross span:nth-child(1) {
+    transform: rotate(58deg) translateY(17px);
+    transition: 300ms;
+    position: relative;
+    top: -5px;
+}
+
+.cross span:nth-child(2) {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 300ms;
+}
+
+.cross span:nth-child(3) {
+    transform: rotate(123deg) translateY(19px);
+    transition: 300ms;
+    position: relative;
+    top: -10px;
+}
 
 /* ===========hero=========== */
 .pt-104 {
